@@ -1,0 +1,795 @@
+body, *{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+ul{
+    list-style: none;
+}
+
+
+.container {
+    max-width: 90%;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.p-logo-container h2 {
+    font-size: 2rem;
+}
+
+nav.nav-menu ul {
+    display: flex;
+    gap: 65px;
+}
+
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #555558;
+    font-size: 1.1rem;
+}
+
+.container-of-bus-logo {
+    border: 2px solid #ddd;
+    padding: 14px 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #E8F9E6;
+    border-color: #A8ED9A;
+}
+
+.container-of-bus-logo span {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1DD100;
+}
+
+
+.paribahan-hero-text{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paribahan-hero-text {
+    padding: 80px 185px 126px 185px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.paribahan-hero-text h1 {
+    color: white;
+    font-size: 3.8rem;
+    line-height: 80px;
+}
+
+.paribahan-hero-text h1 span{
+    color: #1DD100;
+}
+
+.paribahan-hero-text p {
+    color: #EDEFEF;
+    margin: 32px 59px;
+    font-size: 1rem;
+    line-height: 32px;
+}
+
+.paribahan-hero-text button {
+    padding: 20px 25px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    background-color: #1DD100;
+    border-radius: 9px;
+    transition: 0.4s;
+}
+
+.paribahan-hero-text button:hover{
+    cursor: pointer;
+    background-color: #1cc402;
+}
+
+.paribahan-background-hero {
+    position: relative;
+}
+
+.hero-info-card-container {
+    display: flex;
+    /* justify-content: center; */
+    gap: 40px;
+    position: absolute;
+    transform: translateX(92px) translateY(-70px);
+}
+
+.hero-info-card-main {
+    border-bottom: 2px solid #1DD100;
+    padding: 32px 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 27px;
+    /* border-bottom-color: 2px solid #1DD100; */
+    background-color: white;
+}
+
+.hero-info-text h2 {
+    font-size: 2.4rem;
+    margin-bottom: 9px;
+}
+
+
+.hero-info-text span {
+    font-size: 1.05rem;
+    color: #7D7F85;
+    font-weight: 600;
+}
+
+section.coupon-section {
+    padding: 190px 0px;
+}
+
+.best-offer-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+}
+
+.coupon-card-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.coupon-card-main {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-color: #FEBF0F;
+    padding: 57px 61px;
+    border-radius: 20px;
+    background-image: url(../images/cupon-devider.png);
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-size: contain;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.main-coupon-card{
+    background-color: #F78C9C;
+    gap: 124px;
+}
+
+.discount-price-info h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.discount-price-info h4 {
+    font-size: 1.1rem;
+    color: #35222E;
+    margin-bottom: 13px;
+}
+
+.discount-price-info span {
+    color: #4e4c4c;
+}
+
+.discount-price-info {
+    text-align: left;
+}
+
+.coupon-code h2 {
+    font-size: 1.7rem;
+    margin-bottom: 12px;
+}
+
+.coupon-code span {
+    color: #4e4c4c;
+}
+
+.coupon-code {
+    text-align: center;
+}
+
+.best-offer-h2 h2 {
+    font-size: 2.3rem;
+}
+
+
+.best-offer-btn button {
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    color: #1DD100;
+    border-color: #A8ED9A;
+    border: 2px solid #A8ED9A;
+    border-radius: 11px;
+    background-color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.best-offer-btn button:hover{
+    cursor: pointer;
+    background-color: #1DD100;
+    color: white;
+}
+
+
+.code-coupon{
+    width: 37%;
+}
+
+.coupon-card-container div:first-child {
+    background-position: 63%;
+}
+
+.ticket-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.ticket-des {
+    text-align: center;
+    padding-top: 95px;
+}
+
+.ticket-des h2 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+.ticket-des p {
+    padding: 10px 226px;
+    line-height: 32px;
+}
+
+.greenline-paribahan-with-cost-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 33px 40px;
+    border-radius: 15px;
+    align-items: center;
+
+    background-image: url(../images/info-devider.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 82%;
+
+}
+
+
+.ticket-details-sec-color {
+    background-color: #F8F8F8;
+    border-top: 2px solid #1DD100;
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    padding-bottom: 90px;
+}
+
+.logo-heading-seat-container {
+    display: flex;
+    gap: 202px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.ac-business-container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.ac-business-headingText h2 {
+    font-size: 1.9rem;
+    font-weight: bolder;
+    margin-bottom: 13px;
+}
+
+.ac-business-busImg img {
+    width: 94%;
+}
+
+.ac-business-busImg {
+    display: flex;
+    align-items: center;
+}
+
+.ac-business-headingText span {
+    color: #686B72;
+    font-size: 1.1rem;
+}
+
+.ac-business-bus-seat-left {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 11px 14px;
+    background-color: #E8F9E6;
+    border-radius: 10px;
+}
+
+.ac-business-bus-seat-left-text h4 {
+    color: #1DD100;
+}
+
+.rutine-time-container {
+    padding: 28px 30px;
+    background-color: #F8F8F8;
+    border-radius: 20px;
+}
+
+.routine-and-location, .departure-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.routine-and-location h5, .departure-time h5 {
+    padding: 24px 0px;
+    font-size: 0.969rem;
+}
+
+.routine-and-location, .departure-time {
+    border-bottom: 2px dashed #ddd;
+}
+
+.routine-and-location h5:first-child, .departure-time h5:first-child{
+    color: #686B72;
+}
+
+.routine-and-location h5{
+    padding-top: 0px;
+}
+
+
+.departure-time {
+    margin-bottom: 25px;
+}
+
+.start-end-point-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.point-stuff {
+    padding: 19px 20px;
+    background-color: #EBECEE;
+    border-radius: 10px;
+}
+
+.ticket-cost {
+    text-align: center;
+}
+
+.ticket-cost img {
+    width: 38%;
+}
+
+.ticket-cost h2, #per-ticket-price {
+    color: black;
+    font-size: 1.8rem;
+    margin: 14px 0px 8px 0px;
+}
+
+.ticket-cost span {
+    font-size: 1.4rem;
+    color: #686B72;
+}
+
+.select-your-seat-container {
+    background-color: white;
+    padding: 20px 10px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.select-your-seat-first {
+    width: 60%;
+    padding: 13px 35px;
+    border-right: 2px dashed #ddd;
+}
+
+.select-your-seat-second {
+    width: 40%;
+    padding: 13px 35px;
+}
+
+.select-your-seat-title h2, .select-your-seat-sec-title h2 {
+    font-weight: 600;
+}
+
+.seat-colorPeaker-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0px;
+    border-bottom: 2px dashed #ddd;
+}
+
+.seat-available-color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.select-your-seat-title, .select-your-seat-sec-title {
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #ddd;
+}
+
+.seat-available-color h5 {
+    font-size: 0.97rem;
+}
+
+.driver-seat {
+    display: flex;
+    justify-content: right;
+    padding: 25px 0px;
+}
+
+.drive-icon {
+    background-color: #E6E6E8;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.seat-availableColor{
+    color: #686B72;
+}
+
+.seat-selectedColor{
+    color: #1DD100;
+}
+
+
+/*  */
+
+
+.seat-first-line-container {
+    display: flex;
+}
+
+.all-seat-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seat-alphabet-name div {
+    /* padding: 22px 0px; */
+    /* margin-bottom: 20px; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #85888C;
+}
+
+.seats-for-first-line, .seats-for-second-line {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    column-gap: 40px;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.seats-for-first-line div, .seats-for-second-line div {
+    padding: 18px 40px;
+    margin: 0px auto;
+    background-color: #F8F8F8;
+    font-size: 0.96rem;
+    font-weight: 600;
+    color: #85888C;
+    border-radius: 10px;
+}
+
+.seat-alphabet-name {
+    display: grid;
+    /* grid-template-columns: 20px; */
+    gap: 40px;
+    margin-right: 35px;
+}
+
+
+.seat-calculator-main {
+    background-color: #F8F8F8;
+    margin: 30px 0px;
+    border-radius: 10px;
+    padding: 32px 25px;
+}
+
+.seats-for-first-line div:hover, .seats-for-second-line div:hover{
+    cursor: pointer;
+}
+
+.selected-seat-added-lists-main {
+    width: 100%;
+    text-align: center;
+}
+
+table.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+
+
+
+/* table */
+
+tr.table-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 2px dashed #ddd;
+}
+
+tbody.table-tbody tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0px 2px 0px;
+}
+
+tbody.table-tbody tr:last-child{
+    padding-bottom: 14px;
+}
+
+tbody.table-tbody tr td{
+    color: #686B72;
+    font-size: 1.09rem;
+}
+
+.table-title th {
+    font-size: 0.98rem;
+}
+
+.table-title th:nth-child(2){
+    width: 25%;
+}
+
+span.seat-count-number {
+    font-size: 0.79rem;
+    color: white;
+    background-color: #1DD100;
+    padding: 0px 9px;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+
+.total-price-container, .grand-total-container {
+    display: flex;
+    padding: 18px 0px;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+
+
+
+/* field input */
+
+.coupon-field-container {
+    display: flex;
+    align-items: center;
+}
+
+.coupon-field {
+    width: 70%;
+}
+
+.coupon-field input {
+    width: 100%;
+    padding: 18px 15px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    font-size: 0.95rem;
+
+}
+
+.btn-apply {
+    width: 30%;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 6px 0px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.btn-apply button {
+    padding: 12px 18px;
+    border: none;
+    background-color: #1DD100;
+    color: #FFFFFF;
+    font-size: 0.96rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-apply button:hover{
+    cursor: pointer;
+    background-color: #1cc402;
+}
+
+
+.grand-total-container{
+    padding-bottom: 0px;
+}
+
+
+/* form */
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input {
+    margin: 18px 0px;
+    padding: 16px 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    font-size: 0.95rem;
+}
+
+
+button.form-btn {
+    padding: 13px 0px;
+    background-color: #1DD100;
+    border: none;
+    border-radius: 10px;
+}
+
+button.form-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+button.form-btn:hover{
+    cursor: pointer;
+    background-color: #1cc402;
+}
+
+.term-of-policy-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 24px;
+    text-align: center;
+}
+
+
+.term-of-policy-container span a {
+    color: #686B72;
+    font-size: 1.04rem;
+}
+
+.term-of-policy-container span a:active{
+    color: #1DD100;
+}
+
+
+/* footer */
+
+.footer-bg {
+    background-color: #030712;
+    color: white;
+}
+
+.footer-wrapper {
+    padding: 90px 0px;
+}
+
+.title-and-google-play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 2px dashed #ddd;
+}
+
+.footer-title h3 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+.footer-title p {
+    width: 65%;
+    line-height: 32px;
+    font-size: 1.1rem;
+    color: #C8C9CC;
+}
+
+.play-store-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.play-store-text h4 {
+    font-size: 1.1rem;
+}
+
+.play-store-circle-main {
+    padding: 10px 12px;
+    border: 2px solid white;
+    border-radius: 16px;
+    margin-top: 22px;
+}
+
+.play-store h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #e3e3e3;
+}
+
+.footer-link-and-copyright-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.copyright-text p {
+    color: #C8C9CC;
+}
+
+.links-footer {
+    display: flex;
+    gap: 40px;
+}
+
+.links-footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+
+/* Creator */
+
+.copyright-text p a, .copyright-text p span {
+    text-decoration: none;
+    color: #1DD100;
+}
+
+
+/* js bg and color */
+
+.ticket-bg-and-color{
+    background-color: #1DD100 !important;
+    color: white !important;
+}
