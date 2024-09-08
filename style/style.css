@@ -177,7 +177,7 @@ section.coupon-section {
 
 .main-coupon-card{
     background-color: #F78C9C;
-    gap: 124px;
+    gap: 0px;
 }
 
 .discount-price-info h2 {
@@ -238,7 +238,7 @@ section.coupon-section {
 
 
 .code-coupon{
-    width: 37%;
+    width: 31%;
 }
 
 .coupon-card-container div:first-child {
@@ -629,12 +629,17 @@ span.seat-count-number {
 .btn-apply button {
     padding: 12px 18px;
     border: none;
-    background-color: #1DD100;
+    background-color: #EEEEEE;
     color: #FFFFFF;
     font-size: 0.96rem;
     font-weight: 600;
     border-radius: 8px;
     transition: 0.3s;
+}
+
+.apply-btn{
+    background-color: #1DD100 !important;
+    color: #FFFFFF !important;
 }
 
 .btn-apply button:hover{

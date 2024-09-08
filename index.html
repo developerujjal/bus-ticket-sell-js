@@ -105,9 +105,9 @@
                         </div>
 
                         <div class="coupon-card-main main-coupon-card">
-                            <div class="discount-price-info">
+                            <div class="discount-price-info ">
                                 <h2>20% off</h2>
-                                <h4>on your next purchase</h4>
+                                <h4 class="dis-price-heading">on your next purchase</h4>
                                 <span>use by January 2024</span>
                             </div>
 
@@ -302,19 +302,25 @@
                                 </div>
                                 <div class="total-price-container">
                                         <h5>Total Price</h5>
-                                        <h5>BDT <span>00</span></h5>
+                                        <h5>BDT <span id="total-price">00</span></h5>
                                 </div>
                                 <div class="coupon-field-container">
                                     <div class="coupon-field">
-                                        <input type="text" placeholder="Have any coupon?">
+                                        <input id="coupon-code-field" type="text" placeholder="Have any coupon?">
                                     </div>
                                     <div class="btn-apply">
-                                        <button>Apply</button>
+                                        <button id="button-apply" disabled>Apply</button>
                                     </div>
                                 </div>
+
+                                <div class="grand-total-container">
+                                    <h5>Discount</h5>
+                                    <h5>BDT <span id="discount-price">00</span></h5>
+                                </div>
+
                                 <div class="grand-total-container">
                                     <h5>Grand Total</h5>
-                                    <h5>BDT <span>00</span></h5>
+                                    <h5>BDT <span id="grand-total">00</span></h5>
                                 </div>
 
                             </div>
@@ -381,7 +387,9 @@
         </div>
     </footer>
 
-    <script src="js/ticket.js"></script>
+    
+    <script src="js/utility.js"></script>
+    <script src="js/bus-ticket.js"></script>
 </body>
 
 </html>
